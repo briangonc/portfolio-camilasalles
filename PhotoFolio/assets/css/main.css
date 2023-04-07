@@ -100,7 +100,7 @@ h6 {
 # Page Header
 --------------------------------------------------------------*/
 .page-header {
-    padding: 120px 0 60px 0;
+    padding: 70px 0 60px 0;
     min-height: 30vh;
     position: relative;
 }
@@ -289,6 +289,7 @@ h6 {
     z-index: 997;
     padding: 30px 0;
     background-color: #000;
+    position: relative;
 }
 
 .header .logo {
@@ -297,7 +298,11 @@ h6 {
 
 .header .logo img {
     max-height: 40px;
-    margin-right: 8px;
+    margin: none;
+    position: absolute;
+    top: 10;
+    left: 10;
+    max-height: 80px;
 }
 
 .header .logo h1 {
@@ -1179,7 +1184,8 @@ h6 {
 /*--------------------------------------------------------------
 # Título, desrição pessoal
 --------------------------------------------------------------*/
-.hero {
+/* ALTERADO */
+/* .hero {
     width: 100%;
     min-height: 30vh;
     background: #f1d1ba;
@@ -1188,24 +1194,44 @@ h6 {
     padding: 120px 0 60px 0;
     margin-top: -130px;
     bottom: -80px;
+} */
+
+/* ORIGINAL */
+.hero {
+    width: 100%;
+    min-height: 30vh;
+    background: #f1d1ba;
+    background-size: cover;
+    position: relative;
+    padding: 70px 0 60px 0;
 }
 
-#logo-camila-foto {
+/* #logo-camila-foto {
     width: 20em;
     height: 20em;
     bottom: 20px;
     margin: 0 auto;
     position: relative;
     z-index: -1;
-}
+} */
 
-.hero h2 {
+/* ALTERADO */
+/* .hero h2 {
     margin: -85px 0 10px 0;
     font-size: 38px;
     font-weight: 700;
     color: #6d123f;
     font-family: var(--font-secondary);
     z-index: 2;
+} */
+
+/* ORIGINAL */
+.hero h2 {
+    margin: 0 0 10px 0;
+    font-size: 38px;
+    font-weight: 700;
+    color: #6d123f;
+    font-family: var(--font-secondary);
 }
 
 .hero h2 span {
