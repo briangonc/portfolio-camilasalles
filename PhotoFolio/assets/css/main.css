@@ -785,7 +785,10 @@ h6 {
 # Gallery Single Section
 --------------------------------------------------------------*/
 .gallery-single .portfolio-details-slider img {
-    width: 100%;
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .gallery-single
@@ -1079,14 +1082,14 @@ h6 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 5px;
-    color: rgba(255, 255, 255, 0.5);
+    color: #6d123f;
 }
 
 .contact .info-item p {
     padding: 0;
     margin-bottom: 0;
     font-size: 14px;
-    color: #fff;
+    color: #864365;
 }
 
 .contact .info-item:hover i {
